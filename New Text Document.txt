@@ -1,0 +1,198 @@
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop
+$ cd Myapp
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp
+$ touch index.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp
+$ touch app.js
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp
+$ touch style.css
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp
+$ code .
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp
+$ git init
+Initialized empty Git repository in C:/Users/Oshadha/OneDrive/Desktop/Myapp/.git
+/
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git config --global user.name 'OshBurah'
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git config --global user.email 'studentimantha27@gmail.com'
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git add index.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        style.css
+
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ touch login.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ touch about.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ touch sign.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ rm sign.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ ls
+about.html  app.js  index.html  login.html  style.css
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        about.html
+        app.js
+        index.html
+        login.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git add *.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   index.html
+        new file:   login.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        style.css
+
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git add *.js
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git add *.css
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   app.js
+        new file:   index.html
+        new file:   login.html
+        new file:   style.css
+
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ touch contactUs.html
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ touch style2.css
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   app.js
+        new file:   index.html
+        new file:   login.html
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        contactUs.html
+        style2.css
+
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git add .
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   app.js
+        new file:   contactUs.html
+        new file:   index.html
+        new file:   login.html
+        new file:   style.css
+        new file:   style2.css
+
+
+Oshadha@LAPTOP-807BN4JN MINGW64 ~/OneDrive/Desktop/Myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   app.js
+        new file:   contactUs.html
+        new file:   index.html
+        new file:   login.html
+        new file:   style.css
+        new file:   style2.css
